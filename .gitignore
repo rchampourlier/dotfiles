@@ -1,5 +1,4 @@
 custom/zsh
-
 vim/backups
 vim/view
 *un~
@@ -11,6 +10,7 @@ vim/.vundles.local
 vim/.vundles.local.bak
 vim/bundle
 vim/sessions
+zsh/custom_aliases_private.zsh
 .netrwhist
 bin/subl
 tags
