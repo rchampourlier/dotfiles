@@ -14,3 +14,4 @@ zsh/custom_aliases_private.zsh
 .netrwhist
 bin/subl
 tags
+zsh/custom_aliases_private.zsh
