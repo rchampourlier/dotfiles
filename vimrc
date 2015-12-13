@@ -73,7 +73,7 @@ set list listchars=tab:\ \ ,trail:·
 
 set wrap           "Wrap lines
 set linebreak      "Wrap lines at convenient points
-set breakindent    "Indent wrapped lines
+" set breakindent    "Indent wrapped lines
 set showbreak=\ \  "Add 2 spaces on line break
 
 " ================ Folds ============================
