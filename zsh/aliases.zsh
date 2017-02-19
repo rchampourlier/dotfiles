@@ -211,3 +211,19 @@ alias dbmu='spring rake db:migrate:up'
 
 # Homebrew
 alias brewu='brew update  && brew upgrade --all && brew cleanup && brew prune && brew doctor'
+
+# Personal
+
+# Nginx
+alias nginx-start="sudo nginx"
+alias nginx-status="ps auxw|grep 'nginx: master'|grep -v grep"
+alias nginx-pid="ps auxw|grep \"nginx: master\"|grep -v grep|awk '{print \$2}'"
+alias nginx-stop="ps auxw|grep \"nginx: master\"|grep -v grep|awk '{print \$2}'|xargs sudo kill"
+
+# # Bundle
+alias bi="bundle install"
+alias bu="bundle update"
+
+# Misc
+alias cs="more ~/Dev/cheatsheet.md"
+alias cse="vim ~/Dev/cheatsheet.md"
