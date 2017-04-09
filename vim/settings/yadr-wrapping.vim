@@ -7,6 +7,9 @@ endfunction
 " TODO: this should happen automatically for certain file types (e.g. markdown)
 command! -nargs=* Wrap :call SetupWrapping()<CR>
 
+" set wrap linebreak nolist
+" set showbreak=\ …
+
 vmap <D-j> gj
 vmap <D-k> gk
 vmap <D-$> g$

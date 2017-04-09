@@ -182,8 +182,8 @@ of plugins above to learn more.
 
 #### Search/Code Navigation
 
- * `,f` - instantly Find definition of class (must have exuberant ctags installed)
- * `,F` - same as `,f` but in a vertical split
+ * `Ctrl-j` - instantly Find definition of class (must have exuberant ctags installed)
+ * `Ctrl-J` - same as `Ctrl-j` but in a vertical split
  * `,gf` or `Ctrl-f` - same as vim normal gf (go to file), but in a vertical split (works with file.rb:123 line numbers also)
  * `gF` - standard vim mapping, here for completeness (go to file at line number)
  * `,k` - Search the current word under the cursor and show results in quickfix window
@@ -204,8 +204,9 @@ of plugins above to learn more.
 
 #### File Navigation
 
- * `,t` - CtrlP fuzzy file selector
+ * `,f` - CtrlP fuzzy file selector
  * `,b` - CtrlP buffer selector - great for jumping to a file you already have open
+ * `,t` - CtrlP tag selector
  * `Cmd-Shift-M` - jump to method - CtrlP tag search within current buffer
  * `,jm` jump to models. Other `,j` mappings: `,jc` for controllers, `,jh` for helpers, etc. If you think of a concept and a letter, we've got you covered.
  * `Cmd-Shift-N` - NERDTree toggle (`Alt` in Linux)

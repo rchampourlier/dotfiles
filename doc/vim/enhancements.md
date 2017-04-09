@@ -4,7 +4,7 @@
 * syntastic - automatic syntax checking when you save the file
 * repeat - adds `.` (repeat command) support for complex commands like surround.vim. i.e. if you perform a surround and hit `.`, it will Just Work (vim by default will only repeat the last piece of the complex command)
 * endwise - automatically closes blocks (if/end)
-* autotag - automatically creates tags for fast sourcecode browsing. use `,f` over a symbol name to go to its definition
+* autotag - automatically creates tags for fast sourcecode browsing. use `C-s` over a symbol name to go to its definition
 * matchit - helps with matching brackets, improves other plugins
 * AnsiEsc - inteprets ansi color codes inside log files. great for looking at Rails logs
 * solarized - a color scheme scientifically calibrated for awesomeness (including skwp mods for ShowMarks)

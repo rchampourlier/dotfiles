@@ -227,3 +227,7 @@ alias bu="bundle update"
 # Misc
 alias cs="more ~/Dev/cheatsheet.md"
 alias cse="vim ~/Dev/cheatsheet.md"
+
+# Tmux
+alias ta="tmux attach -t "
+alias tn="tmux new -s "
